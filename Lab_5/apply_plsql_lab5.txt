@@ -1,0 +1,62 @@
+
+RATING_AGENCY_ID RATING   RATI                                                  
+---------------- -------- ----                                                  
+            1001 PG       MPAA                                                  
+            1002 T        ESRB                                                  
+            1003 R        MPAA                                                  
+            1004 NR       MPAA                                                  
+            1005 PG-13    MPAA                                                  
+            1006 E10+     ESRB                                                  
+            1007 G        MPAA                                                  
+
+7 rows selected.
+
+
+TABLE_NAME         COLUMN_ID COLUMN_NAME            NULLABLE DATA_TYPE          
+------------------ --------- ---------------------- -------- ------------       
+ITEM                       1 ITEM_ID                NOT NULL NUMBER(22)         
+ITEM                       2 ITEM_BARCODE           NOT NULL VARCHAR2(20)       
+ITEM                       3 ITEM_TYPE              NOT NULL NUMBER(22)         
+ITEM                       4 ITEM_TITLE             NOT NULL VARCHAR2(60)       
+ITEM                       5 ITEM_SUBTITLE                   VARCHAR2(60)       
+ITEM                       6 ITEM_DESC              NOT NULL CLOB               
+ITEM                       7 ITEM_PHOTO                      BFILE              
+ITEM                       8 ITEM_RATING            NOT NULL VARCHAR2(8)        
+ITEM                       9 ITEM_RATING_AGENCY     NOT NULL VARCHAR2(4)        
+ITEM                      10 ITEM_RELEASE_DATE      NOT NULL DATE               
+ITEM                      11 CREATED_BY             NOT NULL NUMBER(22)         
+ITEM                      12 CREATION_DATE          NOT NULL DATE               
+ITEM                      13 LAST_UPDATED_BY        NOT NULL NUMBER(22)         
+ITEM                      14 LAST_UPDATE_DATE       NOT NULL DATE               
+
+14 rows selected.
+
+
+Type created.
+
+
+Type created.
+
+
+Type created.
+
+SP2-0734: unknown command beginning "lv_rating_..." - rest of line ignored.
+SP2-0734: unknown command beginning "lv_rating ..." - rest of line ignored.
+SP2-0734: unknown command beginning "lv_rating_..." - rest of line ignored.
+SP2-0734: unknown command beginning "CURSOR c I..." - rest of line ignored.
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+
+RATING_AGENCY_ID RATING   RATI                                                  
+---------------- -------- ----                                                  
+            1001 PG       MPAA                                                  
+            1002 T        ESRB                                                  
+            1003 R        MPAA                                                  
+            1004 NR       MPAA                                                  
+            1005 PG-13    MPAA                                                  
+            1006 E10+     ESRB                                                  
+            1007 G        MPAA                                                  
+
+7 rows selected.
+
+SP2-0734: unknown command beginning "lv_c_ratin..." - rest of line ignored.
